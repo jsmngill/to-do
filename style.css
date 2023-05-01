@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(Images/jessica-lewis-fJXv46LT7Xk-unsplash\ \(1\).jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add-task-container{
+    width: 350px;
+    padding: 20px 10px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    margin-bottom: 20px;
+    display: flex;
+}
+input{
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+#add-task{
+    flex: 1;
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: white;
+    color: palevioletred;
+    border: palevioletred solid 2px;
+    border-radius: 10px;
+}
+#add-task:hover{
+    background-color: palevioletred;
+    color: white;
+}
+.task{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
