@@ -49,5 +49,34 @@ input{
     padding: 5px;
     margin-bottom: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.task li{
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.task button{
+    flex: 1;
+    border-radius: 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.task .checkTask{
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5rem;
+}
+.task .checkTask:hover{
+    background-color: orange;
+    color: white;
+}
+.task .deleteTask{
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5rem;
 }
